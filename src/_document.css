@@ -1,0 +1,19 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  vertical-align: bottom;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: var(--base-font-size-1);
+  line-height: var(--base-line-height);
+}
+
+@media (--breakpoint-sm) {
+  body {
+    font-size: var(--base-font-size-2);
+  }
+}

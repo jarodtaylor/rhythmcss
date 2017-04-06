@@ -1,0 +1,5 @@
+pre {
+  margin: 0 0 var(--base-spacing-unit);
+  max-width: 100%;
+  overflow: auto;
+}

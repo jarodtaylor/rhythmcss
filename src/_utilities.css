@@ -1,0 +1,110 @@
+:root {
+  --clearfix {
+    &:before,
+    &:after {
+      content: " ";
+      display: table;
+    }
+    &:after {
+      clear: both;
+    }
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+ }
+
+.overflow-scroll {
+  overflow: scroll;
+ }
+
+.overflow-auto   {
+  overflow: auto;
+ }
+
+.clearfix {
+  @apply --clearfix;
+}
+
+.hide {
+  position: absolute!important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.hidden {
+  height: 0;
+  width: 0;
+  position: absolute;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.muted {
+  opacity: 0.5;
+}
+
+.opaque {
+  opacity: 1;
+}
+
+.display-none {
+  display: none!important;
+}
+
+@media (--breakpoint-xs) {
+  .hide-xs {
+    display: none!important;
+  }
+}
+
+@media (--breakpoint-sm) {
+  .hide-sm {
+    display: none!important;
+  }
+}
+
+@media (--breakpoint-md) {
+  .hide-md {
+    display: none!important;
+  }
+}
+
+@media (--breakpoint-lg) {
+  .hide-lg {
+    display: none!important;
+  }
+}
+
+@media (--breakpoint-xl) {
+  .hide-xl {
+    display: none!important;
+  }
+}
+
+@media (--breakpoint-xs-sm) {
+  .hide-xs-sm {
+    display: none!important;
+  }
+}
+
+@media (--breakpoint-sm-md) {
+  .hide-sm-md {
+    display: none!important;
+  }
+}
+
+@media (--breakpoint-md-lg) {
+  .hide-md-lg {
+    display: none!important;
+  }
+}
+
+@media (--breakpoint-lg-xl) {
+  .hide-lg-xl {
+    display: none!important;
+  }
+}

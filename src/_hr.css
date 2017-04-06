@@ -1,0 +1,23 @@
+hr {
+  border-width: 1px 0 0 0;
+  margin: 0 0 calc(var(--base-spacing-unit) - 1px) 0;
+}
+
+.hr--double {
+  border-style: double;
+  border-top-width: 3px;
+  margin-bottom: calc(var(--base-spacing-unit) - 3px);
+}
+
+.hr--dashed {
+  border-style: dashed;
+}
+
+.hr--dotted {
+  border-style: dotted;
+}
+
+.hr--thick {
+  border-top-width: 2px;
+  margin-bottom: calc(var(--base-spacing-unit) - 2px);
+}

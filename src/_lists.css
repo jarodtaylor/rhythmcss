@@ -1,0 +1,10 @@
+@custom-selector :--list ul, ol, dl;
+
+:--list {
+  margin: 0 0 var(--base-spacing-unit);
+  padding: 0 0 0 2em;
+}
+
+.unstyled-list {
+  list-style: none;
+}

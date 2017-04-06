@@ -1,0 +1,202 @@
+.xxl {
+  @apply --xxl;
+}
+
+.xl {
+  @apply --xl;
+}
+
+h1,
+.h1 {
+  @apply --h1;
+}
+
+h2,
+.h2 {
+  @apply --h2;
+}
+
+h3,
+.h3 {
+  @apply --h3;
+}
+
+h4,
+.h4 {
+  @apply --h4;
+}
+
+h5,
+.h5 {
+  @apply --h5;
+}
+
+h6,
+.h6 {
+  @apply --h6;
+}
+
+small
+.small {
+  @apply --small;
+}
+
+@media (--breakpoint-sm) {
+
+  .xxl-sm {
+    @apply --xxl;
+  }
+
+  .xl-sm {
+    @apply --xl;
+  }
+
+  .h1-sm {
+    @apply --h1;
+  }
+
+  .h2-sm {
+    @apply --h2;
+  }
+
+  .h3-sm {
+    @apply --h3;
+  }
+
+  .h4-sm {
+    @apply --h4;
+  }
+
+  .h5-sm {
+    @apply --h5;
+  }
+
+  .h6-sm {
+    @apply --h6;
+  }
+
+  .small-sm {
+    @apply --small;
+  }
+
+}
+
+@media (--breakpoint-md) {
+
+  .xxl-md {
+    @apply --xxl;
+  }
+
+  .xl-md {
+    @apply --xl;
+  }
+
+  .h1-md {
+    @apply --h1;
+  }
+
+  .h2-md {
+    @apply --h2;
+  }
+
+  .h3-md {
+    @apply --h3;
+  }
+
+  .h4-md {
+    @apply --h4;
+  }
+
+  .h5-md {
+    @apply --h5;
+  }
+
+  .h6-md {
+    @apply --h6;
+  }
+
+  .small-md {
+    @apply --small;
+  }
+
+}
+
+@media (--breakpoint-lg) {
+
+  .xxl-lg {
+    @apply --xxl;
+  }
+
+  .xl-lg {
+    @apply --xl;
+  }
+
+  .h1-lg {
+    @apply --h1;
+  }
+
+  .h2-lg {
+    @apply --h2;
+  }
+
+  .h3-lg {
+    @apply --h3;
+  }
+
+  .h4-lg {
+    @apply --h4;
+  }
+
+  .h5-lg {
+    @apply --h5;
+  }
+
+  .h6-lg {
+    @apply --h6;
+  }
+
+  .small-lg {
+    @apply --small;
+  }
+
+}
+
+@media (--breakpoint-xl) {
+
+  .xxl-xl {
+    @apply --xxl;
+  }
+
+  .xl-xl {
+    @apply --xl;
+  }
+
+  .h1-xl {
+    @apply --h1;
+  }
+
+  .h2-xl {
+    @apply --h2;
+  }
+
+  .h3-xl {
+    @apply --h3;
+  }
+
+  .h4-xl {
+    @apply --h4;
+  }
+
+  .h5-xl {
+    @apply --h5;
+  }
+
+  .h6-xl {
+    @apply --h6;
+  }
+
+  .small-xl {
+    @apply --small;
+  }
+
+}
