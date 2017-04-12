@@ -222,7 +222,7 @@
 }
 
 .grid__col-1 {
-  @apply --grid__col-1;
+  @apply --grid__col-8;
 }
 
 .grid__col-2 {
@@ -412,7 +412,7 @@
   }
 
   .grid__col-sm-8 {
-    @apply --grid__col-1;
+    @apply --grid__col-8;
   }
 
   .grid__col-sm-9 {
@@ -576,7 +576,7 @@
   }
 
   .grid__col-md-8 {
-    @apply --grid__col-1;
+    @apply --grid__col-8;
   }
 
   .grid__col-md-9 {
@@ -739,7 +739,7 @@
   }
 
   .grid__col-lg-8 {
-    @apply --grid__col-1;
+    @apply --grid__col-8;
   }
 
   .grid__col-lg-9 {

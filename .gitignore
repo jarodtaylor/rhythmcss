@@ -2,5 +2,8 @@
 node_modules
 npm-debug.log
 
+#Build files
+/build
+
 #System Files
 .DS_Store
