@@ -2,7 +2,7 @@
 
   /** BASELINE **/
   --base-font-size-1-unitless: 1;
-  --base-font-size-2-unitless: 1.25;
+  --base-font-size-2-unitless: 1;
   --base-font-size-1: var(--base-font-size-1-unitless)rem;
   --base-font-size-2: var(--base-font-size-2-unitless)rem;
   --base-line-height: 1.5;

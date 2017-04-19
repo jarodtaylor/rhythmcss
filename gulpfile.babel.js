@@ -23,7 +23,7 @@ const processors = [
 ];
 
 gulp.task('build', function() {
-  gulp.src('./src/stylesheets/rhythm.css')
+  gulp.src('./src/rhythm.css')
     .pipe(postcss(processors))
     .pipe(gulp.dest('./build'));
 });
