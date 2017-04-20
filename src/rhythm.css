@@ -20,8 +20,3 @@
 @import './_tables';
 @import './_hr';
 @import './_utilities';
-
-:root {
-  /*--base-font-size-2-unitless: 0.875;*/
-  /*--base-font-size-2-unitless: 1;*/
-}
