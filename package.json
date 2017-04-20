@@ -7,8 +7,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "NODE_ENV=development gulp build && gulp watch",
-    "deploy": "NODE_ENV=production gulp build && gulp deploy"
+    "build": "postcss src/rhythm.css -d dist -c postcss.config.js",
+    "start": "postcss src/rhythm.css -d dist -c postcss.config.js -w"
   },
   "keywords": [
     "postcss",
@@ -24,7 +24,8 @@
     "babel-preset-es2015": "^6.24.0",
     "csswring": "^5.1.1",
     "gulp": "^3.9.1",
-    "gulp-postcss": "^6.4.0",
+    "postcss": "^5.2.17",
+    "postcss-cli": "^3.1.1",
     "postcss-cssnext": "^2.10.0",
     "postcss-import": "^9.1.0"
   }
