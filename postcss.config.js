@@ -3,6 +3,12 @@ var postcss = require('postcss');
 module.exports = {
   plugins: [
     require('postcss-import'),
-    require('autoprefixer')
+    require('postcss-cssnext')({
+      features: {
+        calc: {
+          precision: 10
+        }
+      }
+    })
   ]
-}
+};
