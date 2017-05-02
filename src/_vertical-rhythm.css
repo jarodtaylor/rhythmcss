@@ -2,6 +2,17 @@
   --base-font-size-1: 1em;
   --base-font-size-2: 1.25em;
   --base-line-height: 1.5;
+
   --base-spacing-unit: var(--base-line-height)em;
   --half-spacing-unit: calc(var(--base-spacing-unit)/2);
+
+  --base-spacing-unit-x2: calc(var(--base-spacing-unit) * 2);
+  --base-spacing-unit-x3: calc(var(--base-spacing-unit) * 3);
+  --base-spacing-unit-x4: calc(var(--base-spacing-unit) * 4);
+  --base-spacing-unit-x5: calc(var(--base-spacing-unit) * 5);
+  --base-spacing-unit-x6: calc(var(--base-spacing-unit) * 6);
+  --base-spacing-unit-x7: calc(var(--base-spacing-unit) * 7);
+  --base-spacing-unit-x8: calc(var(--base-spacing-unit) * 8);
+  --base-spacing-unit-x9: calc(var(--base-spacing-unit) * 9);
+  --base-spacing-unit-x20: calc(var(--base-spacing-unit) * 10);
 }

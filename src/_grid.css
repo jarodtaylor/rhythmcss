@@ -130,6 +130,9 @@
 
   --grid--without-gutters {
     margin-left: 0;
+    & [class^="grid__col"] {
+      padding-left: 0;
+    }
   }
 
   --grid--justify-start {
@@ -159,7 +162,7 @@
     align-items: flex-start;
   }
 
-  --grid--align-middle {
+  --grid--align-center {
     align-items: center;
   }
 
@@ -222,7 +225,7 @@
 }
 
 .grid__col-1 {
-  @apply --grid__col-8;
+  @apply --grid__col-1;
 }
 
 .grid__col-2 {
@@ -337,8 +340,8 @@
   @apply --grid--align-top;
 }
 
-.grid--align-middle {
-  @apply --grid--align-middle;
+.grid--align-center {
+  @apply --grid--align-center;
 }
 
 .grid--align-bottom {
@@ -499,8 +502,8 @@
     @apply --grid--align-top;
   }
 
-  .grid-sm--align-middle {
-    @apply --grid--align-middle;
+  .grid-sm--align-center {
+    @apply --grid--align-center;
   }
 
   .grid-sm--align-bottom {
@@ -663,8 +666,8 @@
     @apply --grid--align-top;
   }
 
-  .grid-md--align-middle {
-    @apply --grid--align-middle;
+  .grid-md--align-center {
+    @apply --grid--align-center;
   }
 
   .grid-md--align-bottom {
@@ -826,8 +829,8 @@
     @apply --grid--align-top;
   }
 
-  .grid-lg--align-middle {
-    @apply --grid--align-middle;
+  .grid-lg--align-center {
+    @apply --grid--align-center;
   }
 
   .grid-lg--align-bottom {
@@ -989,8 +992,8 @@
     @apply --grid--align-top;
   }
 
-  .grid-xl--align-middle {
-    @apply --grid--align-middle;
+  .grid-xl--align-center {
+    @apply --grid--align-center;
   }
 
   .grid-xl--align-bottom {
