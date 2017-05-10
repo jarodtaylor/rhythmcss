@@ -9,11 +9,6 @@
       clear: both;
     }
   }
-  --unit-vr: 1.5em;
-}
-
-.testing {
-  margin-bottom: 5vr;
 }
 
 .overflow-hidden {

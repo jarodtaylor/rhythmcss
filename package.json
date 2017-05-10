@@ -1,5 +1,5 @@
 {
-  "name": "RhythmCSS",
+  "name": "rhythmcss",
   "repository": {
     "type": "git",
     "url": "https://github.com/jarodtaylor/rhythmcss"
@@ -27,5 +27,5 @@
     "postcss-cssnext": "^2.10.0",
     "postcss-import": "^9.1.0"
   },
-  "main": "src/rhythm.css"
+  "style": "src/rhythm.css"
 }
